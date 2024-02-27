@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  padding-top: 25px;
+}
+
+h1 {
+  color: purple;
+}
+
+.answer {
+  color: green;
+  font-family: cursive;
+  font-size: xxx-large;
+}
