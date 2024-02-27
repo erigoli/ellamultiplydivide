@@ -1,18 +1,18 @@
-function multiplyBy()
+function convertToFarenheit()
 {
-        num1 = document.getElementById("firstNumber").value;
-        num2 = document.getElementById("secondNumber").value;
-        document.getElementById("result").innerHTML = num1 * num2;
-        if (num1 * num2 > 1000) {
+        celsiustemp = document.getElementById("temperature").value;
+        farenheittemp = (celsiustemp * 9/5) + 32;
+        document.getElementById("result").innerHTML = farenheittemp.toFixed(2) + " °F";
+        if (celsiustemp > 1000) {
                 document.getElementById("message").innerHTML = "BIG!!!"; 
         } else {
                 document.getElementById("message").innerHTML = "";
         }
 }
 
-function divideBy() 
+function convertToCelsius() 
 { 
-        num1 = document.getElementById("firstNumber").value;
-        num2 = document.getElementById("secondNumber").value;
-        document.getElementById("result").innerHTML = num1 / num2;
+        farenheittemp = document.getElementById("temperature").value;
+        celsiustemp = (farenheittemp - 32) * 5/9;
+        document.getElementById("result").innerHTML = celsiustemp.toFixed(2) + " °C";
 }
