@@ -3,11 +3,6 @@ function convertToFarenheit()
         celsiustemp = document.getElementById("temperature").value;
         farenheittemp = (celsiustemp * 9/5) + 32;
         document.getElementById("result").innerHTML = farenheittemp.toFixed(2) + " °F";
-        if (celsiustemp > 1000) {
-                document.getElementById("message").innerHTML = "BIG!!!"; 
-        } else {
-                document.getElementById("message").innerHTML = "";
-        }
 }
 
 function convertToCelsius() 
