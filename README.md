@@ -1,4 +1,4 @@
-# JS-MuliplyDivide
+# JS-temp
 A Javascript program to multiply and divide
 
 #To deploy:
